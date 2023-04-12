@@ -1,0 +1,147 @@
+:root {
+  --clr-primary-500: hsl(218, 44%, 22%);
+  --clr-secondary-200: hsl(220, 15%, 55%);
+
+  --clr-white: hsl(0, 0%, 100%);
+
+  --clr-grey: hsl(212, 45%, 89%);
+
+  --ff-base: "Outfit", sans-serif;
+
+  --fw-regular: 500;
+  --fw-bold: 700;
+
+  /* box shadow*/
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+body {
+  padding: 2rem 2rem;
+}
+
+/* general styling  */
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+}
+.container {
+  width: 375px;
+  height: 667px;
+  background-color: var(--clr-grey);
+  display: grid;
+}
+
+.qr-code {
+  width: 320px;
+  height: 497px;
+  background-color: var(--clr-white);
+  margin: 0 auto;
+  align-self: center;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-3);
+}
+
+.product-img {
+  width: 288px;
+  height: 288px;
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.title {
+  font-family: Outfit, sans-serif;
+  color: black;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+
+.text {
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  line-height: 1.2;
+  text-align: center;
+  color: grey;
+}
