@@ -21,12 +21,12 @@ The overview is to build a QR code component and get it looking as close to the 
 
 ### Screenshot
 
-![![QR code image](screenshots/Screenshot%202023-04-12%20at%2012.20.35.png)](./screenshot.jpg)
+![Alt text](screenshots/Screenshot%202023-04-13%20at%2013.50.38.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://frontend-mentor-qr-code-project.netlify.app/)
 
 ## My process
 
@@ -99,4 +99,8 @@ Below are the resources I have used thus far.
 
 ## Author
 
-- Frontend Mentor - [@John-Davidson-8](https://www.frontendmentor.io/profile/John-Davidson-8
+- Frontend Mentor - [@John-Davidson-8](https://www.frontendmentor.io/profile/John-Davidson-8)
+
+## Acknowledgments
+
+- Shout out to @ecemgo and @Panji200 at Frontend Mentor for their invaluable advice.
