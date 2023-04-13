@@ -35,7 +35,6 @@ The overview is to build a QR code component and get it looking as close to the 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -46,7 +45,7 @@ I learned the two methods of placing images within a component. One placing the 
 
 One aspect that is yet challenging me is inserting a media query in order to expand the the blue-grey background. The QR component does not alter in size on any screen.
 
-Below is the aforementioned picture class, I eventually did not use. The reason I used a conventional div element to contian the image was to be able to add border radius in the CSS, I had to add add overflow property with the value of hidden for the border radius to work.
+Below is the aforementioned picture class. I eventually did not use it. The reason I used a conventional div element to contain the image was to be able to add border radius in the CSS, I had to add add overflow property with the value of hidden for the border radius to work.
 
 - The HTML below is a picture element, which was new to me.
 
@@ -68,7 +67,7 @@ Below is the aforementioned picture class, I eventually did not use. The reason 
 <div class="content"></div>
 ```
 
-- The CSS code below is a class pointing to the image.
+- The CSS code below is a class pointing to the image. Border radius would only work if overflow property was used with the hidden value.
 
 ```css
 .product-img {
@@ -84,18 +83,20 @@ Below is the aforementioned picture class, I eventually did not use. The reason 
 
 First and foremost I need to learn how to use media queries. I also need to focus on CSS Grid and Flexbox. Also, I need to learn the basics of Figma designs which give the exact details, such as font sizes and component sizes.
 
+### Update ############ Update############### Update
+
+The code has been updated thanks to both @ecemgo and @Panji200 at Frontend Mentor. Many thanks to them for their invaluable advice. They made it look so easy!
+
 ### Useful resources
+
+Below are the resources I have used thus far.
+
+- John Smilga has taught me HTML and CSS with his Udemy course. https://www.udemy.com/course/in-depth-html-css-course-build-responsive-websites/
+
+- Coding Addict is John Smilga's excellent Youtube channel with many great frontend resources. https://www.youtube.com/@CodingAddict.
+
+- Most of the Git and Github process I have learned from Colte Steele's excellent Udemy course https://www.udemy.com/course/git-and-github-bootcamp/.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@John-Davidson-8](https://www.frontendmentor.io/profile/John-Davidson-8
